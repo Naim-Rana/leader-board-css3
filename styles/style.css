@@ -1,0 +1,41 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@500;700&family=Roboto+Slab:wght@100&family=Roboto:wght@100&display=swap');
+
+/* commin styles or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 26;
+
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+}
+
+/* top player style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.players img {
+    height: 56px;
+    width: 56px;
+}
