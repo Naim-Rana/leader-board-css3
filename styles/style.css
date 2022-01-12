@@ -1,7 +1,9 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@500;700&family=Roboto+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
-/* commin styles or utilities */
+/* ------------------------------------
+     common styles or utilitie
+--------------------------------- */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -11,6 +13,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .container {
@@ -22,12 +26,12 @@ main {
     border-radius: 5px;
 }
 
-/*----------------------------
+/*------------------------
        top player style
------------------------------- */
+        ------------------------ */
 .section-title {
     color: #562EFF;
-    font-size: 26;
+    font-size: 26px;
     margin-bottom: 40px;
     margin-top: 0;
 
@@ -51,4 +55,59 @@ main {
 
 .player-name {
     margin-left: 16px;
+}
+
+hr {
+    margin: 29px 0;
+    border: 1px solid #D1D1D1;
+}
+
+/* ----------------------
+        Top blogs styles 
+        -----------------------*/
+.blog-title {
+    color: #562EFF;
+    font-size: 26px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.all-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+
+}
+
+.blog {
+    display: flex;
+}
+
+.thumnale img {
+    width: 170px;
+    height: 117px;
+    margin-right: 16px;
+}
+
+.blog-info {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog-info h3 {
+    margin: 8px 0;
+}
+
+.author-name {
+    color: rgba(0, 0, 0, 0.459);
+    margin: 0;
+}
+
+.author-name a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
 }
