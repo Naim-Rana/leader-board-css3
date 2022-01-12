@@ -1,6 +1,8 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@500;700&family=Roboto+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@500;700&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400&display=swap');
+
 /* ------------------------------------
      common styles or utilitie
 --------------------------------- */
@@ -10,11 +12,13 @@ body {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container {
@@ -90,9 +94,11 @@ hr {
 }
 
 .blog-info {
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    align-content: space-evenly;
 }
 
 .blog-info h3 {
@@ -110,4 +116,54 @@ hr {
     font-size: 16px;
     line-height: 24px;
 
+}
+
+/* --------------------------
+        lates course style 
+    -----------------------------*/
+.course {
+    width: 253px;
+    height: 270px;
+}
+
+.course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-title {
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.course-tutor {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.course-tutor a {
+    text-decoration: none;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-star {
+    color: goldenrod;
+}
+
+.ratting {
+    background-color: ;
+    border-radius: ;
+    color: rgba(0, 0, 0, 0.349);
+}
+
+.course-time-logo {
+    background-color:
+        #FFE4E8;
+    border-radius: 14px;
+    color: rgba(255, 0, 0, 0.493);
+    margin-right: 2px;
 }
