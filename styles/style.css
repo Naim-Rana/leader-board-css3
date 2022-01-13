@@ -32,9 +32,7 @@ main {
     border-radius: 5px;
 }
 
-/*----------------------
-         header style
-     -------------------- */
+
 
 /*------------------------
        top player style
@@ -75,12 +73,7 @@ hr {
 /* ----------------------
         Top blogs styles 
         -----------------------*/
-.lates-course {
-    width: 870px;
-    height: 362px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+
 
 .blog-title {
     color: #562EFF;
@@ -142,6 +135,13 @@ hr {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
+}
+
+.lates-course {
+    width: 870px;
+    height: 362px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .course {
