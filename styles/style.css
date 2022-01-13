@@ -9,6 +9,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -29,6 +31,10 @@ main {
     margin-bottom: 20px;
     border-radius: 5px;
 }
+
+/*----------------------
+         header style
+     -------------------- */
 
 /*------------------------
        top player style
